@@ -8,17 +8,24 @@
             <a class="nav-link active" href="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">
+            <router-link class="nav-link" to="/createarticle">
               <i class="ion-compose"></i>&nbsp;New Post
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">
+            <router-link class="nav-link" to="/settings">
               <i class="ion-gear-a"></i>&nbsp;Settings
-            </a>
+            </router-link>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="">Sign up</a>
+            <router-link class="nav-link" to="/login">
+              Sign in
+            </router-link>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/register">
+              Sign up
+            </router-link>
           </li>
         </ul>
       </div>
