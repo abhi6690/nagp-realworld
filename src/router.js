@@ -32,12 +32,12 @@ export default new Router({
       component:()=>import("@/views/CreateArticle.vue")
     },
     {
-      path:"/editor/:article-slug",
+      path:"/editor/:articleslug",
       name:"editor_existing",
       component:()=>import("@/views/EditArticle.vue")
     },
     {
-      path:"/article/:article-slug",
+      path:"/article/:articleslug",
       name:"article",
       component:()=>import("@/views/Article.vue")
     },
