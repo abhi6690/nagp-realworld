@@ -1,6 +1,5 @@
 <template>
     <div class="article-page">
-
   <div class="banner">
     <div class="container">
 

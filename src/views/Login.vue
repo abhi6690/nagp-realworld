@@ -9,8 +9,8 @@
           <router-link to="/register">Create an account?</router-link>
         </p>
 
-        <ul class="error-messages">
-          <li v-for="error in errors">{{error.message}}</li>
+        <ul v-if="errors" class="error-messages">
+          <li v-for="error in errors" :key="error">{{error.message}}</li>
         </ul>
 
         <form>

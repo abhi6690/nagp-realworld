@@ -28,7 +28,7 @@
             </router-link>
           </li>
           <li v-if="username" class="nav-item">
-            <router-link class="nav-link" to="`/@${username}`">
+            <router-link class="nav-link" :to="`/@${username}`">
               {{username}}
             </router-link>
           </li>
